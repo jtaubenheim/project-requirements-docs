@@ -1,0 +1,35 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Source Document
+      external_url: https://docs.google.com/document/d/1Wq6JAZHxcofUHtviG7Lzf-DBLEKcDAUGLpMewaezURY/
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Product Requirements
+      folderitems:
+      - title: APIv1
+        url: /api1_overview.html
+      - title: APIv2
+        url: /api2_reqs.html
+      - title: RBAC
+        url: /rbac.html
+      - title: Virtual Machines
+        url: /vm.html
+      - title: VSD
+        url: /vsd.html
+      - title: Support Tunnel Cluster Logs
+        url: /support_tunnel.html
+    - title: Miscellaneous
+      folderitems:
+      - title: Other Requirements
+        url: /other_reqs.html
+      - title: Reqs. Under Review
+        url: /reqs_review.html
+      - title: References
+        url: /references.html
+
